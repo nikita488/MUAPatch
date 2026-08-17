@@ -59,6 +59,6 @@ workspace "MUAPatch"
 		symbols "on"
 		optimize "speed"
 		runtime "release"
-		flags { "LinkTimeOptimization" }
+		linktimeoptimization "On"
 		
 project "MUAPatch"
